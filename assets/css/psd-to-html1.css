@@ -35,7 +35,7 @@ header {
 }
 /* homepage-slider */
 .homepage-slider {
-  margin-top: 60px;
+  margin-top: 150px;
 }
 /* .slider-table {
   display: table;
@@ -46,16 +46,38 @@ header {
 .slider-txt {
 }
 .slider-txt h2 {
+  font-size: 44px;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 .slider-txt p {
+  font-size: 17px;
+  margin: 21px 0;
 }
 .slider-form {
 }
 .slider-form form {
 }
 .slider-form form input[type="text"] {
+  padding: 13px 83px;
+  text-align: left;
+  background: #e8f0f2;
+  border: none;
 }
 .slider-form form input[type="submit"] {
+  padding: 12px 27px;
+  border: none;
+  margin-left: -39px;
+  background: #39a2db;
+  border: 2px solid #39a2db;
+  color: #fff;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+}
+.slider-form form input[type="submit"]:hover {
+  background: transparent;
+  color: #39a2db;
 }
 .homepage-slider img {
+  margin-top: -43px;
 }
