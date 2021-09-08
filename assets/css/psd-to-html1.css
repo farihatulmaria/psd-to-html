@@ -36,6 +36,7 @@ header {
 /* homepage-slider */
 .homepage-slider {
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 /* .slider-table {
   display: table;
@@ -80,4 +81,57 @@ header {
 }
 .homepage-slider img {
   margin-top: -43px;
+}
+/* service */
+section.service {
+}
+.service-title {
+  margin-bottom: 50px;
+}
+.service-title h2 {
+}
+.service-title p {
+}
+.single-service {
+  padding: 58px;
+  margin-bottom: 42px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.single-service:hover {
+  border: 3px solid #39a2db;
+}
+.single-service svg {
+  font-size: 40px;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.single-service:hover.single-service svg {
+  color: #39a2db;
+}
+.single-service h4 {
+  transition: all 0.5s ease-in-out;
+}
+.single-service:hover.single-service h4 {
+  color: #39a2db;
+}
+.single-service p {
+  margin-bottom: 1px;
+  margin-top: 28px;
+}
+.single-service.service-btn {
+  margin-top: 10px;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+.single-service:hover.single-service .service-btn {
+  color: #39a2db;
+}
+.single-service .service-btn svg {
+  font-size: 20px;
+  margin-bottom: -2px;
+  transition: all 0.5s ease-in-out;
+}
+.single-service:hover.single-service .service-btn svg {
+  color: #39a2db;
 }
