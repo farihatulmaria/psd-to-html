@@ -35,3 +35,26 @@ header {
   color: #36ee80;
   background: transparent;
 }
+/* homepage-slider */
+.homepage-slider {
+  background: rgb(17, 104, 195);
+  background: linear-gradient(
+    73deg,
+    rgba(17, 104, 195, 1) 0%,
+    rgba(141, 220, 247, 1) 100%
+  );
+}
+.slider-txt {
+}
+.slider-txt h2 {
+}
+.slider-txt p {
+}
+.slider-form {
+}
+.slider-form form {
+}
+.slider-form form input {
+}
+.slider-form form input[type="submit"] {
+}
