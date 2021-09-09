@@ -1,0 +1,37 @@
+/* header */
+header {
+}
+.head {
+  margin: 40px 0;
+}
+.main-menu {
+  margin-top: 12px;
+}
+.main-menu ul {
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 0px 9px;
+}
+.main-menu ul li a {
+  color: #000;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+.main-menu ul li a:hover {
+  color: #36ee80;
+}
+.head-btn {
+}
+.Free {
+  color: #fff;
+  font-weight: 600;
+  background: #36ee80;
+  border-radius: 3px;
+  border: 3px solid #36ee80;
+  transition: all 0.5s ease-in-out;
+}
+.Free:hover {
+  color: #36ee80;
+  background: transparent;
+}
