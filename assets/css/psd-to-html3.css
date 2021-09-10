@@ -1,0 +1,240 @@
+section,
+footer {
+  padding: 80px 0;
+}
+/* header */
+header {
+  position: relative;
+  background: url("/assets/img/street.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+  height: 100%;
+  padding: 40px 0;
+}
+header::after {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(21, 0, 255, 1) 0%,
+    rgba(0, 181, 255, 1) 50%,
+    rgba(0, 241, 255, 1) 100%
+  );
+  opacity: 0.6;
+  content: "";
+}
+.logo img {
+  width: 13%;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 6px 13px;
+}
+.main-menu ul li a {
+  color: #fff;
+}
+.main-menu ul li a:hover {
+  color: #fff;
+}
+/* homepage-sliders */
+.homepage-sliders {
+  color: #fff;
+  margin-top: 160px;
+}
+.single-slider h3 {
+  font-size: 45px;
+  letter-spacing: 4px;
+  margin-bottom: 0px;
+}
+.single-slider p {
+  padding: 0px 247px;
+  font-size: 18px;
+  margin: 16px 0;
+  margin-bottom: 29px;
+}
+.video-play-btn {
+  background: #1cd164;
+  color: #fff;
+  padding: 18px 24px;
+  border: 2px solid #1cd164;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.video-play-btn:hover {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+/* offer */
+.offer-title {
+  margin-bottom: 37px;
+}
+.offer-form {
+  margin-bottom: 44px;
+  text-align: center;
+}
+input {
+  padding: 11px 26px;
+  margin-right: 11px;
+  text-transform: capitalize;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+input[type="submit"] {
+  border: 3px solid #1cd164;
+  background: #1cd164;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: transparent;
+  color: #1cd164;
+}
+.offer-img img {
+  margin-left: -50px;
+}
+.offer-txt {
+  margin-top: 31px;
+}
+.offer-txt h3 {
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.offer-txt p {
+  color: #666;
+  margin-bottom: 25px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* service */
+.service-title {
+  margin-bottom: 70px;
+}
+.single-service {
+  padding: 37px 12px;
+  margin-bottom: 42px;
+  position: relative;
+  border: 3px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.single-service:hover {
+  border: 3px solid #1cd164;
+}
+.single-service h1 {
+  font-size: 65px;
+  margin-bottom: 14px;
+  color: #cacaca;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+.single-service h4 {
+  font-weight: 600;
+}
+.single-service p {
+  margin-bottom: 30px;
+  margin-top: 28px;
+}
+.single-service.service-btn {
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+}
+.single-service:hover.single-service .service-btn {
+  color: #1cd164;
+}
+.single-service .service-btn svg {
+  font-size: 20px;
+  margin-bottom: -2px;
+  transition: all 0.3s ease-in-out;
+}
+.single-service:hover.single-service .service-btn svg {
+  color: #1cd164;
+  margin-left: 5px;
+}
+/* products */
+.product-title {
+  margin-bottom: 50px;
+}
+.product-title p {
+  padding: 0 108px;
+}
+.single-product {
+  height: 350px;
+  position: relative;
+}
+.product-bg {
+  background: url("https://farihatulmaria.github.io/psd-to-html/assets/img/Watch1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg2 {
+  background: url("https://farihatulmaria.github.io/psd-to-html/assets/img/watch-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg3 {
+  background: url("https://farihatulmaria.github.io/psd-to-html/assets/img/watch-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg4 {
+  background: url("/assets/img/watch-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg5 {
+  background: url("/assets/img/watch-5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg6 {
+  background: url("/assets/img/watch-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.single-product:hover::after {
+  opacity: 1;
+}
+.single-product:hover .hover-links {
+  opacity: 1;
+  visibility: visible;
+}
+.single-product::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #1cd164;
+  content: "";
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.single-product .hover-links {
+  position: absolute;
+  top: 34%;
+  left: 9%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+}
+.hover-links a svg {
+  color: #fff;
+  font-size: 36px;
+}
