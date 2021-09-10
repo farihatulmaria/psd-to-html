@@ -6,14 +6,14 @@
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 500,
+      autoplaySpeed: 5000,
     });
     $(".comment-slider").slick({
       dots: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 300,
     });
   });
 })(jQuery);
