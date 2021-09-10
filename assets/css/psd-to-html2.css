@@ -1,3 +1,7 @@
+section,
+footer {
+  padding: 80px 0;
+}
 /* header */
 .head {
   margin: 40px 0;
@@ -98,9 +102,6 @@ input[type="submit"]:hover {
   color: #1cd164;
 }
 /* team */
-.team {
-  padding: 80px 0;
-}
 .team-imgs {
   position: relative;
   margin-top: 20px;
@@ -141,9 +142,6 @@ input[type="submit"]:hover {
   margin: 20px 0;
 }
 /* service */
-.service {
-  padding: 80px 0;
-}
 .service-title {
   padding: 40px 0;
 }
@@ -214,7 +212,6 @@ input[type="submit"]:hover {
 /* ceo-comment */
 .ceo-comment {
   background: #f5f5f5;
-  padding: 72px 0;
 }
 .comment-icon {
   width: 63px;
@@ -242,9 +239,6 @@ input[type="submit"]:hover {
   color: #8a8888;
 }
 /* products */
-.products {
-  padding: 80px 0;
-}
 .product-title {
   margin-bottom: 50px;
 }
@@ -323,9 +317,6 @@ input[type="submit"]:hover {
   left: 47px;
 }
 /* pricing-table */
-.pricing-table {
-  padding: 90px 0;
-}
 .pricing-title {
   margin-bottom: 50px;
 }
@@ -386,4 +377,106 @@ a.pricing-btn {
 a.pricing-btn:hover {
   color: #1cd164;
   background: transparent;
+}
+/* blog */
+.blog-title {
+  margin-bottom: 54px;
+}
+.blog-title p {
+  padding: 0 194px;
+}
+.blog-title h3 {
+  padding: 20px 0;
+}
+.blog-txt {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 27px;
+  transition: all 0.5s ease-in-out;
+}
+.blog-txt:hover {
+  background: #fafafa;
+}
+.blog-txt h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.blog-txt p {
+  padding: 9px 0;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.blog-btn {
+  font-weight: 600;
+  color: #39a2db;
+  background: none;
+  transition: all 0.5s ease;
+  font-size: 19px;
+}
+.blog-btn svg {
+  color: #39a2db;
+  transition: all 0.3s ease;
+}
+.blog-btn:hover {
+  color: #1cd164;
+}
+.blog-btn:hover svg {
+  color: #1cd164;
+  margin-left: 8px;
+}
+/* offer */
+.offer {
+  color: #fff;
+  background: linear-gradient(
+    153deg,
+    rgba(141, 220, 247, 1) 0%,
+    rgba(17, 104, 195, 1) 100%
+  );
+  margin-bottom: 100px;
+}
+/* footer */
+footer {
+  background: #f5f5f5;
+}
+footer a {
+  color: #000;
+}
+.sign-up h3 {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.sign-up form {
+  margin-bottom: 20px;
+}
+.sign-up input[type="email"] {
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  padding: 12px 1px;
+  text-align: center;
+}
+.sign-up input[type="submit"] {
+  color: #fff;
+  background: #1cd164;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  margin-left: 57px;
+  padding: 13px 21px;
+  font-weight: 600;
+  margin-top: -2px;
+}
+.sign-up input[type="submit"]:hover {
+  color: #fff;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  transition: all 0.5s ease-in-out;
+  padding: 17px;
+  cursor: pointer;
+}
+.social-icons a:hover {
+  color: #1cd164;
 }
