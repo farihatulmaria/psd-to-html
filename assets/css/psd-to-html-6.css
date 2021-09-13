@@ -1,0 +1,417 @@
+section,
+footer {
+  padding: 80px 0;
+}
+/* header */
+/* head */
+.head {
+  margin-top: 40px;
+}
+.main-menu {
+  margin-top: 10px;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.main-menu ul li a {
+  color: #000;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.main-menu ul li a:hover {
+  color: #50d890;
+}
+.logo img {
+  margin-top: 9px;
+}
+.Free {
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  background: #50d890;
+  border: 3px solid #50d890;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+  padding: 11px 29px;
+}
+.Free:hover {
+  background: transparent;
+  color: #50d890;
+}
+/* hompage-slider */
+.hompage-slider {
+  padding: 30px 0;
+}
+.single-slider {
+  background: url("/assets/img/art-5852645_1280.jpg");
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 80px 0;
+}
+.single-slider::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.4;
+  z-index: -1;
+  width: 100%;
+  content: "";
+  height: 100%;
+}
+.bg1 {
+  background: url("/assets/img/building.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2 {
+  background: url("/assets/img/architecture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg3 {
+  background: url("/assets/img/art-5852645_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-txt p {
+  padding: 15px 200px;
+}
+.slider-txt a {
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  background: #fff;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+  padding: 11px 29px;
+  text-transform: capitalize;
+}
+.slider-txt a:hover {
+  background: transparent;
+  color: #fff;
+}
+.slick-dots {
+  bottom: -15px;
+  left: 2px;
+}
+.slick-dots li {
+  border-radius: 32px;
+  width: 40px;
+  height: 6px;
+  background: #dbdbdb;
+  color: #dbdbdb;
+  transition: all 0.3s ease;
+}
+.slick-dots li.slick-active {
+  background: #50d890;
+}
+.slick-dots li button {
+  display: none;
+}
+
+/* about */
+.about-img {
+  position: relative;
+  width: 100%;
+  height: 113%;
+}
+.about-img img {
+  box-shadow: 0 0 10px #888;
+  position: absolute;
+  top: 0;
+}
+.about-img img:nth-child(1) {
+  right: 0;
+  height: 81%;
+  top: -31px;
+}
+.about-img img:nth-child(2) {
+  z-index: 1;
+  left: -32px;
+  width: 61%;
+  height: 89%;
+}
+.about-txt h3 {
+  font-size: 29px;
+  margin-left: 16px;
+}
+.about-txt p {
+  color: #888;
+  margin-left: -57px;
+  padding: 0 75px;
+}
+.about-btn {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #50d890;
+}
+.about-btn:hover {
+  color: #50d890;
+  transition: all 0.5s;
+}
+.about-btn:hover svg {
+  margin-left: 8px;
+  transition: all 0.5s;
+}
+/* service */
+.service-txt {
+  line-height: 1.6;
+}
+.service-txt h3 {
+  font-size: 20px;
+  margin-bottom: 23px;
+}
+.service-txt p {
+  color: #888;
+  font-size: 14px;
+}
+.service img {
+  width: 100%;
+  box-shadow: 0 0 10px #888;
+}
+
+/* products */
+.product-title {
+  margin-bottom: 50px;
+}
+.product-title p {
+  padding: 0 108px;
+}
+.single-product {
+  height: 350px;
+  position: relative;
+}
+.product-bg {
+  background: url("/assets/img/Watch1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg2 {
+  background: url("/assets/img/watch-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg3 {
+  background: url("/assets/img/watch-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg4 {
+  background: url("/assets/img/watch-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg5 {
+  background: url("/assets/img/watch-5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg6 {
+  background: url("/assets/img/watch-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg7 {
+  background: url("/assets/img/watch-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.single-product:hover::after {
+  opacity: 0.6;
+}
+.single-product:hover .hover-links {
+  opacity: 1;
+  visibility: visible;
+}
+.single-product::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #50d890;
+  content: "";
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.single-product .hover-links {
+  position: absolute;
+  top: 34%;
+  left: 9%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+}
+.hover-links a svg {
+  color: #fff;
+  font-size: 36px;
+}
+/* pricing-table */
+.pricing-table {
+  padding: 90px 0;
+}
+.pricing-title {
+  margin-bottom: 50px;
+}
+.pricing-title h2 {
+  font-weight: 400;
+}
+.pricing-title p {
+  padding: 8px 25%;
+}
+.pricing-offer {
+  text-align: center;
+  border-radius: 3px;
+  border: 3px solid transparent;
+  transition: all 0.5s ease;
+}
+.pricing-offer:hover {
+  border: 3px solid #50d890;
+}
+.pricing-offer:hover .pricing-head span {
+  background: #50d890;
+}
+.pricing-head {
+  position: relative;
+  padding: 20px 0;
+}
+.pricing-head h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.pricing-head h1 {
+  color: #50d890;
+  font-weight: 600;
+}
+.pricing-head p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.pricing-head span {
+  position: absolute;
+  top: 93%;
+  left: 18%;
+  width: 64%;
+  text-align: center;
+  background: #f5f5f5;
+  transition: all 0.5s ease-in-out;
+  height: 3px;
+}
+.pricing-body {
+  padding: 20px;
+}
+.pricing-txt {
+  line-height: 2;
+  margin-bottom: 33px;
+}
+a.pricing-btn {
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  background: #50d890;
+  border: 3px solid #50d890;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+a.pricing-btn:hover {
+  color: #50d890;
+  background: transparent;
+}
+/* offer */
+.offer {
+  background: url("/assets/img/art-5852645_1280.jpg");
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.offer::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #150e56;
+  content: "";
+  z-index: -1;
+  opacity: 0.3;
+}
+.offer a {
+  background: #fff;
+  border: 3px solid #fff;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.offer a:hover {
+  background: transparent;
+  color: #fff;
+}
+.offer p {
+  padding: 8px 200px;
+}
+/* footer */
+footer {
+  background: #f5f5f5;
+  padding: 100px 0px;
+}
+footer a {
+  color: #000;
+}
+.sign-up h3 {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.sign-up form {
+  margin-bottom: 20px;
+}
+.sign-up input[type="email"] {
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  padding: 12px 1px;
+  text-align: center;
+}
+.sign-up input[type="submit"] {
+  color: #fff;
+  background: #50d890;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  margin-left: 57px;
+  padding: 13px 21px;
+  font-weight: 600;
+  margin-top: -2px;
+}
+.sign-up input[type="submit"]:hover {
+  color: #fff;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  transition: all 0.5s ease-in-out;
+  padding: 17px;
+  cursor: pointer;
+}
+.social-icons a:hover {
+  color: #50d890;
+}

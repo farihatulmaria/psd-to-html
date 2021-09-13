@@ -1,0 +1,137 @@
+section,
+footer {
+  padding: 80px 0;
+}
+/* header */
+/* head */
+.head {
+  margin-top: 40px;
+}
+.main-menu {
+  margin-top: 10px;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.main-menu ul li a {
+  color: #000;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.main-menu ul li a:hover {
+  color: #50d890;
+}
+.logo img {
+  margin-top: 9px;
+}
+.Free {
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  background: #50d890;
+  border: 3px solid #50d890;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+  padding: 11px 29px;
+}
+.Free:hover {
+  background: transparent;
+  color: #50d890;
+}
+/* hompage-slider */
+.hompage-slider {
+  padding: 30px 0;
+}
+.single-slider {
+  height: 393px;
+  padding-top: 118px;
+}
+.single-slider {
+  background: url("/assets/img/art-5852645_1280.jpg");
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 80px 0;
+}
+.single-slider::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.4;
+  z-index: -1;
+  width: 100%;
+  content: "";
+  height: 100%;
+}
+.bg1 {
+  background: url("/assets/img/building.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2 {
+  background: url("/assets/img/architecture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg3 {
+  background: url("/assets/img/art-5852645_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-txt p {
+  padding: 15px 200px;
+}
+.slider-txt a {
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  background: #fff;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+  padding: 11px 29px;
+  text-transform: capitalize;
+}
+.slider-txt a:hover {
+  background: transparent;
+  color: #fff;
+}
+.slick-dots {
+  bottom: -15px;
+  left: 2px;
+}
+.slick-dots li {
+  border-radius: 32px;
+  width: 40px;
+  height: 6px;
+  background: #dbdbdb;
+  color: #dbdbdb;
+  transition: all 0.3s ease;
+}
+.slick-dots li.slick-active {
+  background: #50d890;
+}
+.slick-dots li button {
+  display: none;
+}
+/* service */
+.service-txt {
+  margin-top: 50px;
+  line-height: 1.6;
+}
+.service-txt h3 {
+  margin-bottom: 23px;
+}
+.service-txt p {
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 700;
+}
+.service img {
+  box-shadow: 0 0 10px #888;
+}
