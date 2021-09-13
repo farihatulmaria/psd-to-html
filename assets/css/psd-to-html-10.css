@@ -1,0 +1,223 @@
+section,
+footer {
+  padding: 80px 0;
+}
+hr {
+  width: 46%;
+  margin-top: 34px;
+  margin-left: 10px;
+}
+/* head */
+.head {
+  margin-top: 40px;
+}
+.main-menu {
+  margin-top: 10px;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.main-menu ul li a {
+  color: #000;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.main-menu ul li a:hover {
+  color: #50d890;
+}
+.logo img {
+  margin-top: 9px;
+}
+.Free {
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  background: #50d890;
+  border: 3px solid #50d890;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+  padding: 11px 29px;
+}
+.Free:hover {
+  background: transparent;
+  color: #50d890;
+}
+/* hompage-slider */
+.hompage-slider {
+  padding: 30px 0;
+}
+.single-slider {
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 80px 0;
+}
+.single-slider::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.4;
+  z-index: -1;
+  width: 100%;
+  content: "";
+  height: 100%;
+}
+.bg1 {
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/building.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2 {
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/architecture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg3 {
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-txt p {
+  padding: 15px 200px;
+}
+.slider-txt a {
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  background: #fff;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+  padding: 11px 29px;
+  text-transform: capitalize;
+}
+.slider-txt a:hover {
+  background: transparent;
+  color: #fff;
+}
+/* about */
+.about-txt {
+}
+.about-txt p {
+  color: #888;
+}
+/* laptop */
+.laptop {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.laptop-txt p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #888;
+  font-size: 19px;
+}
+.laptop-txt h2 {
+  font-size: 47px;
+  margin-bottom: 40px;
+}
+.laptop-txt {
+  padding-right: 43px;
+}
+.laptop-txt a.laptop-btn {
+  color: #fff;
+  background: #50d890;
+  border-radius: 5px;
+  border: 3px solid #50d890;
+  font-weight: 700;
+  padding: 14px 43px;
+  transition: all 0.5s ease;
+}
+.laptop-txt a.laptop-btn:hover {
+  color: #50d890;
+  background: transparent;
+}
+.laptop img {
+  width: 578px;
+  margin-left: 21px;
+}
+/* offer */
+.offer {
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.offer::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #150e56;
+  content: "";
+  z-index: -1;
+  opacity: 0.3;
+}
+.offer a {
+  background: #fff;
+  border: 3px solid #fff;
+  color: #000;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+}
+.offer a:hover {
+  background: transparent;
+  color: #fff;
+}
+.offer p {
+  padding: 8px 200px;
+}
+/* footer */
+footer {
+  background: #f5f5f5;
+  padding: 100px 0px;
+}
+footer a {
+  color: #000;
+}
+.sign-up h3 {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.sign-up form {
+  margin-bottom: 20px;
+}
+.sign-up input[type="email"] {
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  padding: 12px 1px;
+  text-align: center;
+}
+.sign-up input[type="submit"] {
+  color: #fff;
+  background: #50d890;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  margin-left: 57px;
+  padding: 13px 21px;
+  font-weight: 600;
+  margin-top: -2px;
+}
+.sign-up input[type="submit"]:hover {
+  color: #fff;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  transition: all 0.5s ease-in-out;
+  padding: 17px;
+  cursor: pointer;
+}
+.social-icons a:hover {
+  color: #50d890;
+}
