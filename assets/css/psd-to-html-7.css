@@ -48,7 +48,7 @@ footer {
   padding-top: 118px;
 }
 .single-slider {
-  background: url("/assets/img/art-5852645_1280.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
   position: relative;
   z-index: 2;
   color: #fff;
@@ -66,19 +66,19 @@ footer {
   height: 100%;
 }
 .bg1 {
-  background: url("/assets/img/building.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/building.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg2 {
-  background: url("/assets/img/architecture.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/architecture.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg3 {
-  background: url("/assets/img/art-5852645_1280.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +188,7 @@ footer {
 }
 /* offer */
 .offer {
-  background: url("/assets/img/art-5852645_1280.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
   position: relative;
   z-index: 2;
   color: #fff;

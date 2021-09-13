@@ -4,7 +4,7 @@ section {
 /* header */
 header {
   position: relative;
-  background: url("/assets/img/architecture.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/architecture.jpg");
   background-position: center;
   background-size: cover;
   z-index: 2;
@@ -195,7 +195,7 @@ input[type="submit"]:hover {
 .get-started {
   position: relative;
   z-index: 2;
-  background: url("/assets/img/art-5852645_1280.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
   color: #fff;
   margin-top: 100px;
   padding: 50px 0;
@@ -320,7 +320,7 @@ input[type="submit"]:hover {
 }
 /* offer */
 .offer {
-  background: url("/assets/img/art-5852645_1280.jpg");
+  background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
   position: relative;
   z-index: 2;
   color: #fff;
