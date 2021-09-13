@@ -135,3 +135,131 @@ footer {
 .service img {
   box-shadow: 0 0 10px #888;
 }
+/* client-comments */
+.client-comments {
+  padding: 100px 50px;
+}
+.comment-table {
+  display: table;
+}
+.comment-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.comment-txt {
+  padding: 0 50px;
+}
+.comment-txt p {
+  padding: 0 321px;
+  margin-top: 30px;
+  margin-bottom: 37px;
+}
+.comment-txt img {
+  border-radius: 50%;
+  width: 102px;
+  height: 97px;
+  margin-left: 46%;
+  margin-bottom: 30px;
+}
+.comment-txt h5 {
+  text-transform: uppercase;
+}
+.comment-txt h5 span {
+  display: block;
+  margin-top: 16px;
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: 400;
+}
+.slick-dots {
+  bottom: -55px;
+  left: 2px;
+}
+.slick-dots li {
+  border-radius: 32px;
+  width: 40px;
+  height: 6px;
+  background: #dbdbdb;
+  color: #dbdbdb;
+  transition: all 0.3s ease;
+}
+.slick-dots li.slick-active {
+  background: #50d890;
+}
+/* offer */
+.offer {
+  background: url("/assets/img/art-5852645_1280.jpg");
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.offer::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #150e56;
+  content: "";
+  z-index: -1;
+  opacity: 0.3;
+}
+.offer a {
+  background: #fff;
+  border: 3px solid #fff;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.offer a:hover {
+  background: transparent;
+  color: #fff;
+}
+.offer p {
+  padding: 8px 200px;
+}
+/* footer */
+footer {
+  background: #f5f5f5;
+  padding: 50px 0;
+}
+footer a {
+  color: #000;
+}
+.sign-up h3 {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.sign-up form {
+  margin-bottom: 20px;
+}
+.sign-up input[type="email"] {
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  padding: 12px 1px;
+  text-align: center;
+}
+.sign-up input[type="submit"] {
+  color: #fff;
+  background: #50d890;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  margin-left: 57px;
+  padding: 13px 21px;
+  font-weight: 600;
+}
+.sign-up input[type="submit"]:hover {
+  border-radius: 32px;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  transition: all 0.5s ease-in-out;
+  padding: 17px;
+  cursor: pointer;
+}
+.social-icons a:hover {
+  color: #50d890;
+}
