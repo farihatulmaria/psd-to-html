@@ -304,6 +304,9 @@
   color: #dbdbdb;
   transition: all 0.3s ease;
 }
+.slick-dots li button {
+  display: none;
+}
 .slick-dots li.slick-active {
   background: #39a2db;
 }

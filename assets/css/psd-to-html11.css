@@ -101,49 +101,7 @@ hr {
   background: transparent;
   color: #fff;
 }
-/* about */
-.about-txt {
-}
-.about-txt p {
-  color: #888;
-}
-/* laptop */
-.laptop {
-  margin-top: 100px;
-}
-.laptop-txt p {
-  margin-top: 30px;
-  margin-bottom: 40px;
-  color: #888;
-  font-size: 19px;
-}
-.laptop-txt h2 {
-  font-size: 47px;
-  margin-bottom: 40px;
-}
-.laptop-txt {
-  padding-right: 43px;
-}
-.laptop-txt a.laptop-btn {
-  color: #fff;
-  background: #50d890;
-  border-radius: 5px;
-  border: 3px solid #50d890;
-  font-weight: 700;
-  padding: 14px 43px;
-  transition: all 0.5s ease;
-}
-.laptop-txt a.laptop-btn:hover {
-  color: #50d890;
-  background: transparent;
-}
-.laptop img {
-  width: 578px;
-  margin-left: 21px;
-}
 /* team */
-.team {
-}
 .team-title {
   margin-bottom: 50px;
 }
@@ -157,57 +115,7 @@ hr {
   margin-top: 21px;
   text-transform: capitalize;
 }
-/* client-comments */
-.client-comments {
-  padding: 100px 50px;
-}
-.comment-table {
-  display: table;
-}
-.comment-table-cell {
-  display: table-cell;
-  vertical-align: middle;
-}
-.comment-txt {
-  padding: 0 50px;
-}
-.comment-txt p {
-  padding: 0 321px;
-  margin-top: 30px;
-  margin-bottom: 37px;
-}
-.comment-txt img {
-  border-radius: 50%;
-  width: 102px;
-  height: 97px;
-  margin-left: 46%;
-  margin-bottom: 30px;
-}
-.comment-txt h5 {
-  text-transform: uppercase;
-}
-.comment-txt h5 span {
-  display: block;
-  margin-top: 16px;
-  text-transform: capitalize;
-  font-size: 19px;
-  font-weight: 400;
-}
-.slick-dots {
-  bottom: -55px;
-  left: 2px;
-}
-.slick-dots li {
-  border-radius: 32px;
-  width: 40px;
-  height: 6px;
-  background: #dbdbdb;
-  color: #dbdbdb;
-  transition: all 0.3s ease;
-}
-.slick-dots li.slick-active {
-  background: #39a2db;
-}
+
 /* offer */
 .offer {
   background: url("https://farihatulmaria.github.io/psd-to-html//assets/img/art-5852645_1280.jpg");
